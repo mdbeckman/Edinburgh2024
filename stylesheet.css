@@ -15,8 +15,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	padding: 25;
-	margin: 50;
+	padding: 0;
+	margin: 0;
 	font: inherit;
 	font-size: 100%;
 	vertical-align: baseline;
@@ -52,7 +52,6 @@ body {
   font-size: 1em;
   line-height: 1.5;
   color: #6d6d6d;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
 }
 
@@ -193,6 +192,9 @@ pre code {
 }
 
 ul, ol, dl {
+  margin-left: 30px;
+  list-style-position: inside; 
+  text-indent: -15px;
   margin-bottom: 20px;
 }
 
@@ -303,7 +305,7 @@ ul li {
 ol li {
   list-style-position: inside;
   list-style: decimal;
-  padding-left: 20px;
+  padding-left: 3px;
 }
 
 dl dt {
