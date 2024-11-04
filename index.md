@@ -1,10 +1,10 @@
 ---
 title: "Technology Enhanced Mathematical Sciences Education (TEMSE) Seminar"
 subtitle: "Maxwell Institute, University of Edinburgh"
-author: |
-  | Matthew Beckman
-  | Penn State University
-date: November 20, 2024
+date: |
+  | November 20, 2024
+  | 
+  | 
 output: 
   html_document: 
     css: stylesheet.css
@@ -34,9 +34,10 @@ This work is supported by the US National Science Foundation (NSF DUE-2236150: P
 
 ![](directory-beckman-small.jpg)
 
+Matthew D. Beckman  
+Assoc Research Professor | Penn State University  
+Director | CAUSE ([causeweb.org](https://causeweb.org))   
+[mdbeckman.github.io](https://mdbeckman.github.io/)  
 
-- email: mdb268 [at] psu [dot] edu  
-- personal webpage: <https://mdbeckman.github.io/>  
-- CAUSE webpage: <https://www.causeweb.org>
 
 Matt Beckman is an Associate Research Professor of Statistics at Penn State University and Director of the Consortium for the Advancement of Undergraduate Statistics Education (CAUSE).  He is co-founder of a Statistics & Data Science Education Research Lab and affiliated faculty with the Social Science Research Institute and the Center for Socially Responsible Artificial Intelligence at Penn State. Matt's primary research interests tend to focus on assessment and he is currently PI for the NSF-funded "Project CLASSIFIES" which investigates the use of NLP tools to assist instructors of large-enrollment classes with providing formative assessment feedback on short-answer, free response tasks.  
