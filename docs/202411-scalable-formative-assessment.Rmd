@@ -31,8 +31,9 @@ library(knitr)
 
 #### Two question survey before seminar 
 
-![(QR Code) https://forms.gle/hpW72fMYE1SsB19JA](QR-GForm.png){width=20%}
+![(QR Code) https://forms.gle/hpW72fMYE1SsB19JA](QR-GForm.png){width=15%}
 
+<!-- MDB: Update survey conclusion with pointer to TEMSE materials or personal webpage? -->
 
 # Responses to our survey?
 
@@ -41,7 +42,7 @@ library(knitr)
 knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 ```
 
-
+<!-- MDB: Show some actual responses to the survey from past? -->
 
 # Motivation
 
