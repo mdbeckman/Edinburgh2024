@@ -46,6 +46,8 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 # Motivation
 
+<!-- MDB: Revisit using the intro from the UoA lightning talk. -->
+
 - "Write-to-learn" tasks improve learning outcomes (Graham, et al., 2020)
 - Critical for citizen-statisticians to communicate effectively (Gould, 2010)
 - Frequent practice w/ communicating improves statistical literacy and promotes retention (Basu, et al., 2013)
@@ -64,7 +66,19 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 
 
+<!-- # Discussion -->
+
+<!-- MDB: update to align with LT approach -->
+
+<!-- ![](US-DOE-AI4Ed.png){width=80%} -->
+
+<!-- ![](US-DOE-recommendations.png){width=80%} -->
+
+
 # Goal
+
+<!-- MDB: Revisit using the intro from the UoA lightning talk. -->
+
 
 *Develop technology that can assist instructors for large (STEM) classes with providing targeted formative assessment feedback to students, such that instructor burden is similar to small class (~30 students)*
 
@@ -85,6 +99,8 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 <!-- Note: Automate the "copy / paste" workflow -->
 <!-- Note: How good does the machine have to be?? -->
 <!-- Note: as a statistician, I'm always comparing current circumstances of my data to some ideal state (SRS or randomized experiment) and negotiating compromise to achieve most desirable outcomes possible given the circumstances available. It's the same here--we want to create useful FA where there is (almost) none-->
+
+
 
 
 
@@ -402,13 +418,6 @@ How similar is feedback provided by trained humans?
 <!-- | 1    |  90         | 0.71   |   0.53    |   0.69    | -->
 <!-- | 2    |  100        | 0.45   |   0.70    |   0.41    | -->
 
-
-
-# Discussion
-
-![](US-DOE-AI4Ed.png){width=80%}
-
-![](US-DOE-recommendations.png){width=80%}
 
 
 # Discussion
