@@ -27,13 +27,14 @@ library(knitr)
 
 ---
 
-\titlepage
+# Two question survey before seminar 
 
-#### Two question survey before seminar 
+1. Is your lucky (or favorite) number odd or even?
+2. How would you describe the value of formative assessment?
 
-![(QR Code) https://forms.gle/hpW72fMYE1SsB19JA](QR-GForm.png){width=15%}
+### Google Form 
 
-<!-- MDB: Update survey conclusion with pointer to TEMSE materials or personal webpage? -->
+![(QR Code) https://forms.gle/hpW72fMYE1SsB19JA](QR-GForm.png){width=20%}
 
 # Responses to our survey?
 
@@ -43,17 +44,15 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 ```
 
 <!-- MDB: Show some actual responses to the survey from past? -->
+<!-- MDB: Update Google Form pointer to resource page -->
+
 
 # Motivation
 
-<!-- MDB: Revisit using the intro from the UoA lightning talk. -->
-
-- "Write-to-learn" tasks improve learning outcomes (Graham, et al., 2020)
+- **"Write-to-learn" tasks improve learning outcomes** (Graham, et al., 2020)
 - Critical for citizen-statisticians to communicate effectively (Gould, 2010)
 - Frequent practice w/ communicating improves statistical literacy and promotes retention (Basu, et al., 2013)
-- Formative assessment benefits both students & instructors (Black & Wiliam, 2009; GAISE, 2016; Pearl, et al., 2012)
-- A majority of U.S. undergraduates at public institutions take at least one large-enrollment STEM course (Supiano, 2022)
-- **Logistics of constructed response tasks jeopardize use in large-enrollment classes** (Garfield & Ben-Zvi, 2008; Woodard & McGowan, 2012)
+- **Formative assessment benefits both students & instructors** (Black & Wiliam, 2009; GAISE, 2016; Pearl, et al., 2012)
 
 
 # Easy!
@@ -64,20 +63,17 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 ![](large-class.jpg){ width=95% }
 
+# Motivation
 
-
-<!-- # Discussion -->
-
-<!-- MDB: update to align with LT approach -->
-
-<!-- ![](US-DOE-AI4Ed.png){width=80%} -->
-
-<!-- ![](US-DOE-recommendations.png){width=80%} -->
+- "Write-to-learn" tasks improve learning outcomes (Graham, et al., 2020)
+- Critical for citizen-statisticians to communicate effectively (Gould, 2010)
+- Frequent practice w/ communicating improves statistical literacy and promotes retention (Basu, et al., 2013)
+- Formative assessment benefits both students & instructors (Black & Wiliam, 2009; GAISE, 2016; Pearl, et al., 2012)
+- A majority of U.S. undergraduates at public institutions take at least one large-enrollment STEM course (Supiano, 2022)
+- **Logistics of constructed response tasks jeopardize use in large-enrollment classes** (Garfield & Ben-Zvi, 2008; Woodard & McGowan, 2012)
 
 
 # Goal
-
-<!-- MDB: Revisit using the intro from the UoA lightning talk. -->
 
 
 *Develop technology that can assist instructors for large (STEM) classes with providing targeted formative assessment feedback to students, such that instructor burden is similar to small class (~30 students)*
@@ -85,6 +81,26 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 ![image created with assistance of DALL·E 2 by Open AI](DALLE Robot Assist.png){width=40%}
 
 
+
+# Goal
+
+
+*Develop technology that can assist instructors for large (STEM) classes with providing targeted formative assessment feedback to students, such that instructor burden is similar to small class (~30 students)*
+
+>- **Technology**: Natural Language Processing (NLP)
+>- **Large classes**: Hundreds of simultaneous students
+>- **Formative assessment**: e.g., Low-stakes check-for-understanding prompt
+>- **Targeted feedback**: Timely and personalized
+>- **Burden**: typical effort of an engaged instructor
+>- **Assist instructors**: Amplifies (rather than supplants) instructor effort
+
+
+
+# Goal
+
+![](US-DOE-AI4Ed.png){width=80%}
+
+![](US-DOE-recommendations.png){width=80%}
 
 
 # Project Schematic
@@ -115,7 +131,7 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 \vskip 18pt
 
-### Pilot Study & Follow-Up Investigation
+### Relevant Papers
 
 \tiny
 
@@ -125,10 +141,13 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 - Beckman, M., Burke, S., Fiochetta, J., Fry, B., Lloyd, S. E., Patterson, L., & Tang, E. (2024). Developing Consistency Among Undergraduate Graders Scoring Open-Ended Statistics Tasks. Preprint URL: <https://arxiv.org/abs/2410.18062>
 
+\vskip 6pt
+
+- Li, Z., Lloyd, S., Beckman, M. D., & Passonneau, R. J. (2023). Answer-state Recurrent Relational Network (AsRRN) for Constructed Response Assessment and Feedback Grouping.  *Findings of the Association for Computational Linguistics: EMNLP 2023*.
 
 # Collaborators
 
-![Lloyd et al., (2022) Pilot Project Team](Collaborators.png){width=75%}
+![Lloyd et al., (2022); Li et al., (2023) Project Team](Collaborators.png){width=75%}
 
 ![Beckman et al., (2024) Project Team](SU24_Team.png){width=80%}
 
@@ -506,9 +525,11 @@ How similar is feedback provided by trained humans?
 
 11. Li, Z., Lloyd, S., Beckman, M. D., & Passonneau, R. J. (2023). Answer-state Recurrent Relational Network (AsRRN) for Constructed Response Assessment and Feedback Grouping.  *Findings of the Association for Computational Linguistics: EMNLP 2023*. <https://doi.org/10.18653/v1/2023.findings-emnlp.254>
 
+#. Lloyd, S. E., Beckman, M., Pearl, D., Passonneau, R., Li, Z., & Wang, Z. (2022). Foundations for AI-Assisted Formative Assessment Feedback for Short-Answer Tasks in Large-Enrollment Classes. In *Proceedings of the eleventh international conference on teaching statistics*. Rosario, Argentina.
+
 <!-- #. Page, E. B. (1994). Computer Grading of Student Prose, Using Modern Concepts and Software. *The Journal of Experimental Education, 62*(2), 127–142. -->
 
-12. Pearl, D. K., Garfield, J. B., delMas, R., Groth, R. E., Kaplan, J. J., McGowan, H., & Lee, H. S. (2012). Connecting Research to Practice in a Culture of Assessment for Introductory College-level Statistics. URL: <http://www.causeweb.org/research/guidelines/ResearchReport_Dec_2012.pdf>
+13. Pearl, D. K., Garfield, J. B., delMas, R., Groth, R. E., Kaplan, J. J., McGowan, H., & Lee, H. S. (2012). Connecting Research to Practice in a Culture of Assessment for Introductory College-level Statistics. URL: <http://www.causeweb.org/research/guidelines/ResearchReport_Dec_2012.pdf>
 
 #. U.S. Department of Education, Office of Educational Technology (2023). Artificial Intelligence and Future of Teaching and Learning: Insights and Recommendations, Washington, DC.
 
