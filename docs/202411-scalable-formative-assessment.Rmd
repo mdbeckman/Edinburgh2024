@@ -30,6 +30,10 @@ library(knitr)
 
 ---
 
+# Edinboro Roots
+
+![](Edinboro.png)
+
 # Two question pop quiz 
 
 1. Is your lucky (or favorite) number odd or even?
