@@ -106,6 +106,16 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 ![](US-DOE-recommendations.png){width=80%}
 
 
+
+# Back to our example...
+
+
+```{r, echo=FALSE,out.width="49%", out.height="49%", fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("OddForm.png","EvenForm.png"))
+```
+
+
+
 # Project Schematic
 
 ![](Schematic.png){width=90%}
