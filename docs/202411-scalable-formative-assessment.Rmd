@@ -478,10 +478,11 @@ How similar is feedback provided by trained humans?
 - accumulated data to be shared with broader NLP community
     - this will be among the largest *open* data sources of it's kind
     - addresses barriers imposed by proprietary data sources on NLP research
-- shiny new algorithm: AsRRN
+- algorithm development 
     - contrastive loss function
     - correct answers are similar; there are a few distinct ways to earn partial credit; there are many diffuse ways to be incorrect
     - accommodates more complex task structure
+    - impact of response length
 
 <!-- - After consent; approx 22,300 responses from ~ 13,000 students -->
 <!-- ISU = 468 + 362 + 249 + 205 =  1280   -->
