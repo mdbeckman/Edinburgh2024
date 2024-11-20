@@ -301,8 +301,8 @@ Li, Z., Tomar, Y., & Passonneau, R. J. (2021). A Semantic Feature-Wise Transform
 
 ![Image credit: Becky Passonneau](RelationalNetwork_RJP.png)
 
-- much of the architecture inspired by work from computer vision   
-- more efficient than transformer networks (e.g., LLMs)  
+<!-- - much of the architecture inspired by work from computer vision    -->
+<!-- - more efficient than transformer networks (e.g., LLMs)   -->
 
 
 
