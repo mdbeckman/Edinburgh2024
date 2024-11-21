@@ -4,10 +4,10 @@ author: |
   | Matthew Beckman
   | Penn State University
 date: | 
+  | TEMSE Seminar
+  | University of Edinburgh
   | 
-  | University of Glasgow
-  | 
-  | November 21, 2024
+  | November 20, 2024
 
 
   
